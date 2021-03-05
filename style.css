@@ -813,20 +813,24 @@ html {
 .contacts-details div {
     width: 18rem;
     margin: 3rem 1rem;
+    overflow: hidden;
 }
 
 .contact-form {
     width: 60rem;
+    overflow: hidden;
 }
 }
 @media (max-width: 315px) {
 html {
-   font-size: 20%; 
+   font-size: 20%;
+   overflow: hidden; 
 }    
 }
 @media (max-width: 230px) {
 html {
-    font-size: 15%; 
+    font-size: 15%;
+    overflow: hidden;
 }    
 }
 /* End of Responsive */

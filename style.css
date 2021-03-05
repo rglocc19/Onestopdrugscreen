@@ -819,4 +819,14 @@ html {
     width: 60rem;
 }
 }
+@media (max-width: 315px) {
+html {
+   font-size: 20%; 
+}    
+}
+@media (max-width: 230px) {
+html {
+    font-size: 15%; 
+}    
+}
 /* End of Responsive */

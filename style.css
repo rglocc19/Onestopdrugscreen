@@ -826,7 +826,7 @@ html {
     width: 60rem;
 }
 }
-@media (max-width: 500px) {
+@media screen and (max-width: 480px) {
     html {
       font-size: 30%;
     }

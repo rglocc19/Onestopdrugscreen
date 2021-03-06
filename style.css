@@ -760,8 +760,7 @@ html {
     margin-bottom: 2rem;
 }
 }
-
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
 html {
     font-size: 30%;
 }
@@ -821,16 +820,75 @@ html {
     overflow: hidden;
 }
 }
-@media (max-width: 315px) {
+@media screen and (max-width: 400px) {
 html {
-   font-size: 20%;
-   overflow: hidden; 
-}    
+    font-size: 25%;
 }
-@media (max-width: 230px) {
+
+.banner-heading span {
+    font-size: 3.5rem;
+    letter-spacing: 1rem;
+}
+
+@keyframes animateHeading {
+    0% {
+    transform: translateZ(8rem);
+    opacity: 0;
+    letter-spacing: 1rem;
+    }
+
+    3% {
+    transform: translateZ(0);
+    opacity: 1;
+    letter-spacing: .5rem;
+    }
+
+    25% {
+    transform: translateZ(0);
+    opacity: 1;
+    letter-spacing: .5rem;
+    }
+
+    28% {
+    transform: translateZ(8rem);
+    opacity: 0;
+    letter-spacing: 1rem;
+    }
+
+    100% {
+    transform: translateZ(6rem);
+    opacity: 0;
+    letter-spacing: 1rem;
+    }
+}
+.video-wrapper {
+    width: 60rem;
+}
+
+.section-2-paragraph {
+    width: 60rem;
+    
+}
+
+.contacts-details div {
+    width: 14rem;
+    margin: 1.5rem .5rem;
+    overflow: hidden;
+}
+
+.contact-form {
+    width: 45rem;
+    overflow: hidden;
+}
+}
+@media screen and (max-width: 200px) {
 html {
     font-size: 15%;
-    overflow: hidden;
-}    
 }
+}
+@media screen and (max-width: 150px) {
+    html {
+        font-size: 10%;
+    }
+    }
 /* End of Responsive */

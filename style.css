@@ -832,7 +832,8 @@ html {
 }
 
 .swiper-container {
-    width: 75%;
+    width: 100%;
+    overflow: hidden;
 }
 
 @keyframes animateHeading {

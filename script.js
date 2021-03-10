@@ -49,7 +49,7 @@ var swiper = new Swiper('.swiper-container', {
       rotate: 0,
       stretch: 0,
       depth: 100,
-      modifier: 1,
+      modifier: 0,
       slideShadows: true,
     },
   });

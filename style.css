@@ -29,7 +29,7 @@ html{
 /* Navbar */
 .navbar {
     width: 100%;
-    height: 10.5rem;
+    height: 10rem;
     background-color: rgba(0, 0, 0, 0.9);
     position: fixed;
     top: -10rem;
@@ -760,6 +760,7 @@ html {
     margin-bottom: 2rem;
 }
 }
+
 @media screen and (max-width: 500px) {
 html {
     font-size: 30%;
@@ -820,7 +821,7 @@ html {
     overflow: hidden;
 }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
 html {
     font-size: 25%;
 }
@@ -828,6 +829,10 @@ html {
 .banner-heading span {
     font-size: 3.5rem;
     letter-spacing: 1rem;
+}
+
+.swiper-container {
+    width: 65%;
 }
 
 @keyframes animateHeading {
@@ -870,25 +875,14 @@ html {
     
 }
 
+.contact-form {
+    width: fit-content;
+    overflow: hidden;
+}
+
 .contacts-details div {
     width: 14rem;
     margin: 1.5rem .5rem;
     overflow: hidden;
 }
-
-.contact-form {
-    width: 45rem;
-    overflow: hidden;
 }
-}
-@media screen and (max-width: 200px) {
-html {
-    font-size: 15%;
-}
-}
-@media screen and (max-width: 150px) {
-    html {
-        font-size: 10%;
-    }
-    }
-/* End of Responsive */
